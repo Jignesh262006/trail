@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo img{
+    width: 300px;
+    height: 65px;
+}
+
+.navlist{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.rightnav{
+    padding-top: 20px;
+    font-size: larger;
+    display: flex;
+    margin-left: auto;
+}
+.rightnav a{
+    margin: 10px;
+    text-decoration: none;
+    color: rgb(74, 116, 74);
+}
+.rightnav input{
+    width: 100px;
+}
+.rightnav i{
+    margin-left: 10px;
+    margin-top: 10px;
+    color: rgb(74, 116, 74);
+}
+.UAE{
+    margin-right: 10px;
+}
+.UAE img{
+    width: 33px;
+    height: auto;
+}
+.rightnav:hover{
+    color: rgb(145, 88, 60);
+}
+.right2{
+    font-size: larger;
+    justify-content: end;
+    display: flex;
+    margin-left: auto;
+}
+.right2 a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: rgb(74, 116, 74);
+}
+.right2 a:hover{
+    color: #070DBD;
+}
+.navlist a:hover{
+    text-decoration: none;
+    color: #773DBD;
+}
+.text{
+    font-family: sans-serif ;
+    margin-top: 10px;
+    padding: 10px;
+    color:	rgb(0, 0, 0);
+    font-size: 20px;
+    background-color: rgb(201, 201, 201);
+}
+.text p{
+    text-align: center;
+}
+.text a{
+    color: #e29292;
+}
+.text a:hover{
+    color: #4c4b06;
+}
+.firstimg img{
+    width: auto;
+    height: 300px;
+}
+.first{
+    padding-top: 10px;
+    display: flex;
+}
+.heading h1{
+    color: rgb(150, 183, 84);
+    margin: 20px;
+}
+.heading h2{
+    color: rgb(150, 183, 84);
+    margin: 20px;
+    
+}
+.more{
+    font-family: sans-serif ;
+    width: 125px;
+    height: auto;
+    padding: 2px;
+    font-size: 20px;
+    margin: 20px;
+    border: 2px ;
+    background: #9fadad;
+ }
+ .more a:hover{
+    color: chocolate;
+ }
+
+ 
+ .bottom{
+    display: flex;    
+    justify-content: space-evenly;
+    margin: auto;
+ }
+
+ .contact p{
+    padding: 5px;
+ }
+ .contact p:hover{
+    color: #4c4b06;
+ }
+ .whatsapp img{
+    width: auto;
+    height: 50px;
+    position: fixed;
+    left: 95%;
+    top: 90%;
+}
+.whatsapp img:hover{
+    transform: scale(1.4);
+}
+.instagram img{
+    width: auto;
+    height: 35px;
+    padding: 5px;
+}
+.instagram img:hover{
+    transform: scale(1.1);
+}
